@@ -6,7 +6,7 @@ instalar depedencias
 
 baixar CLI do firebase
 
-> npm i -g firebase
+> npm i -g firebase-tools
 
 iniciar o emulador 
 

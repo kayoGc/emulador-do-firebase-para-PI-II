@@ -1,6 +1,12 @@
 {
   "rules": {
-    ".read": true,  // 2026-11-6
-    ".write": true,  // 2026-11-6
+    "products": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "$other": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
   }
 }
